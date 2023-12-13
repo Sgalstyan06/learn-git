@@ -75,9 +75,3 @@ function delData(){
     method: 'DELETE'
   })
 }
-
-
-console.log("Me")
-
-console.log("My Wife")
-
