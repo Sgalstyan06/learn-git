@@ -76,4 +76,6 @@ function delData(){
   })
 }
 
+function foo(){console.log("this is a function foo")}
 
+function sayHello(){console.log("say hello")}
