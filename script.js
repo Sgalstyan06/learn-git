@@ -75,3 +75,6 @@ function delData(){
     method: 'DELETE'
   })
 }
+
+
+function foo(){console.log("hey")}
