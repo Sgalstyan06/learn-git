@@ -77,4 +77,7 @@ function delData(){
 }
 
 
-function foo(){console.log("hey")}
+console.log("Me")
+
+console.log("My Wife")
+
