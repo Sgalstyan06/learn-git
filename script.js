@@ -81,3 +81,8 @@ let name = "Suren";
 function foo(){console.log("this is a function foo")}
 
 function sayHello(){console.log("say hello")}
+
+
+function add(){
+  console.log("fix last issue use last commit")
+}
