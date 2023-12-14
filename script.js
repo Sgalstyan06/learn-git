@@ -76,4 +76,9 @@ function delData(){
   })
 }
 
-let name = "Suren"
+let name = "Suren";
+
+function foo(){console.log("this is a function foo")}
+
+
+let lastName = "Galstyan"
