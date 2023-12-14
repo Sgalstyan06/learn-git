@@ -1,0 +1,1 @@
+console.log("add new file script_2.js")
