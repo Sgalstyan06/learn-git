@@ -79,5 +79,3 @@ function delData(){
 let name = "Suren";
 
 function foo(){console.log("this is a function foo")}
-
-
