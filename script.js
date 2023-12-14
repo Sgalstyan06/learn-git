@@ -86,3 +86,4 @@ let lastName = "Galstyan"
 let fullname = `${name} ${lastName}`
 
 console.log(fullname)
+console.log(name)
