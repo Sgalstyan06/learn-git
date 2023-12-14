@@ -82,3 +82,7 @@ function foo(){console.log("this is a function foo")}
 
 
 let lastName = "Galstyan"
+
+let fullname = `${name} ${lastName}`
+
+console.log(fullname)
