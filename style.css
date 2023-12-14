@@ -9,3 +9,20 @@ main {
 p {
   color: green;
 }
+
+.header{
+  display: flex;
+}
+.footer{
+  display: grid;
+}
+
+
+.child{
+  text-align: center;
+}
+
+
+footer{
+  flex-direction: column;
+}
