@@ -24,12 +24,11 @@ git log --oneline /show more pretier format
 git reflog /show all commits and give more information
 git reflog <minus number> /we set limit showed commits
 
-        /whe we needed to navigate from one commit to another
-git checkout -B master <commit-index>, <branch-name>
+       
+git checkout -B master <commit-index>, <branch-name>  /whe we needed to navigate from one commit to another
 
         //reset
-
-git reset --hard @~ /revert all changes from the currnet commit and navigate to the correspond parent commit,  which indicates sympbal tilda ~, we can write ~~, or ~2 which is indicate which parents  commit to navigate
+git reset --hard @~ /revert all changes from the currnet commit and navigate to the        correspond parent commit,  which indicates sympbal tilda ~, we can write ~~, or ~2 which is indicate which parents  commit to navigate
 
 git reset --soft @~~/ navigate the correspond commit, and only remove changes from repasitory
 
@@ -62,4 +61,7 @@ git -G<searching text> -p /if we need to find changes
 git log --before '<indicate date>', --first-parent> /search by date
 
 git show , or <commit index>,  /see commit detail
+
+
+note: needed to test, git rebease, and git revert
 
