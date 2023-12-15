@@ -63,3 +63,4 @@ git log --before '<indicate date>' /search by date
 
 git show , or <commit index> /see commit detail
 
+// fix bug
