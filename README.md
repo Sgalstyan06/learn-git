@@ -22,6 +22,7 @@ git commit -v /show different between Head and changes
 git log /show all commits
 git log --oneline /show more pretier format
 git reflog /show all commits and give more information
+git reflog <minus number> /we set limit showed commits
 
         /whe we needed to navigate from one commit to another
 git checkout -B master <commit-index>, <branch-name>
@@ -38,6 +39,7 @@ git reset --hard ORIG_HEAD /reset that commit which is we ignore
 
 git reset <commit index> <file> /reset only correspond file to the commit index, but not navigate to the indicate commit
 /we can do the same use command  : git checkout <commit index> <file>
+git reset --hard @{3} // we reset changes and navigate to the commit which is indicates with number
 
     //diff
 git diff /check different between work directory and index
@@ -48,4 +50,16 @@ git diff <commit index> <commit index> /check different between two indicated co
 git diff <commit index> /check different between indicated commite and changes
 
 
-        show commits
+        // git log
+git log //indicate all commit
+git log --oneline //show pretier
+git log <branch name>
+git log <file>
+git log -p <file>
+git --grep <searching word> //will find commit where we added correspond searching word
+git --grep <'more than one word'> -P //this use for search more word
+git -G<searching text> -p /if we need to find changes
+git log --before '<indicate date>' /search by date
+
+git show , or <commit index> /see commit detail
+
