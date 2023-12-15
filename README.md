@@ -22,6 +22,7 @@ git commit -v /show different between Head and changes
 git log /show all commits
 git log --oneline /show more pretier format
 git reflog /show all commits and give more information
+git reflog <minus number> /we set limit showed commits
 
         /whe we needed to navigate from one commit to another
 git checkout -B master <commit-index>, <branch-name>
@@ -38,6 +39,7 @@ git reset --hard ORIG_HEAD /reset that commit which is we ignore
 
 git reset <commit index> <file> /reset only correspond file to the commit index, but not navigate to the indicate commit
 /we can do the same use command  : git checkout <commit index> <file>
+git reset --hard @{3} // we reset changes and navigate to the commit which is indicates with number
 
     //diff
 git diff /check different between work directory and index
