@@ -63,3 +63,5 @@ git log --before '<indicate date>', --first-parent> /search by date
 
 git show , or <commit index>,  /see commit detail
 
+                revert
+                
