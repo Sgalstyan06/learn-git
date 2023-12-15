@@ -48,4 +48,16 @@ git diff <commit index> <commit index> /check different between two indicated co
 git diff <commit index> /check different between indicated commite and changes
 
 
-        show commits
+        // git log
+git log //indicate all commit
+git log --oneline //show pretier
+git log <branch name>
+git log <file>
+git log -p <file>
+git --grep <searching word> //will find commit where we added correspond searching word
+git --grep <'more than one word'> -P //this use for search more word
+git -G<searching text> -p /if we need to find changes
+git log --before '<indicate date>' /search by date
+
+git show , or <commit index> /see commit detail
+
