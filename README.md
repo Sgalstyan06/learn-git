@@ -30,7 +30,7 @@ git checkout -B master <commit-index>, <branch-name>  /whe we needed to navigate
         //reset
 git reset --hard @~ /revert all changes from the currnet commit and navigate to the        correspond parent commit,  which indicates sympbal tilda ~, we can write ~~, or ~2 which is indicate which parents  commit to navigate
 
-git reset --soft @~~/ navigate the correspond commit, and only remove changes from repasitory
+git reset --soft @~~/ navigate the correspond commit, and only remove changes from repasitory, its mean changes stay in stage area and work repasitory
 
 git reset --mixed @~, git reset @~ <default>/ navigate the corespond commit, and remove all changes, except work directory
 
@@ -41,7 +41,7 @@ git reset <commit index> <file> /reset only correspond file to the commit index,
 git reset --hard @{3} // we reset changes and navigate to the commit which is indicates with number
 
     //diff
-git diff /check different between work directory and index
+git diff /check different between work directory and staged area
 git diff HEAD /check differnet between work direcotory and last commit "HEAD"
 git diff --cached /check differnet between index and last commit "HEAD"
 git diff <branch name> <branch name> /check different between two indicated branches
